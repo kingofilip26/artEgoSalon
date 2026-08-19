@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Ego Salon krásy</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Hamburger menu -->
+    <div class="hamburger-menu">
+        <input class="zruseni" type="button" value="x">
+        <a href="index.html" class="hamburger-link o">Domů</a>
+        <a href="tym.html" class="hamburger-link o">Náš Tým</a>
+        <a href="#sluzby" class="hamburger-link o">Služby<span class="sipka">▾</span></a>
+        <a href="vlasy.html" class="hamburger-link link-mensi">Péče o vlasovou pokožku a vlasy</a>
+        <a href="nanotape.html" class="hamburger-link link-mensi">Prodlužování vlasů NANOTAPE</a>
+        <a href="rasy.html" class="hamburger-link link-mensi">Prodlužování řas a úprava obočí</a>
+        <a href="kosmetika.html" class="hamburger-link link-mensi">Kosmetika & Vizážistka</a>
+        <a href="nehty.html" class="hamburger-link link-mensi">Nehtová modeláž a manikúra</a>
+        <a href="#galerie" class="hamburger-link o">Galerie<span class="sipka">▾</span></a>
+        <a href="galerie-prace.html" class="hamburger-link link-mensi">Ukázky Práce</a>
+        <a href="fotogalerie.html" class="hamburger-link link-mensi">Fotky Interiéru</a>
+        <a href="kontakty.html" class="hamburger-link o">Kontakty</a>
+    </div>
+
+    <!-- Tlačítko nahoru -->
+    <a class="nahoru" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- Obal úvodní sekce (Header overlay + Swiper) -->
+    <div class="hero-wrapper">
+
+        <!-- Fixní / Absolutní záhlaví navrchu nad sliderem -->
+        <div class="site-header-container">
+            <div class="topbar">
+                <div class="nav-kontakty">
+                    <div class="telefon">
+                        <div class="address">
+                            <a class="lincik" target="_blank" href="tel:+420556731788"><i
+                                    class="fa-solid fa-location-dot"></i></a>
+                            <address class="telefon-span">K Nemocnici 210, 741 01 Nový Jičín 1</address>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="oteviracka">
+                            <i class="fa-solid fa-clock"></i>
+                            <span class="telefon-span">PO - PA I dle objednávek</span>
+                        </div>
+                    </div>
+                    <div class="socials">
+                        <a target="_blank" href="https://www.instagram.com/salon_art_ego/"><i
+                                class="fa-brands fa-instagram lincik klik"></i></a>
+                        <a target="_blank"
+                            href="https://www.facebook.com/p/Kade%C5%99nick%C3%BD-kosmetick%C3%BD-salon-art-ego-100063534042336/?locale=cs_CZ"><i
+                                class="fa-brands fa-facebook lincik klik"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <header id="header">
+                <nav>
+                    <input type="button" class="hamburgerInput" value="≡">
+                    <figure class="osobni-logo-figure">
+                        <img src="logo2.png" alt="Art Ego Logo" class="osobni-logo-image">
+                    </figure>
+                    <ul class="link-list">
+                        <li class="link-list-li"><a href="index.html" class="nav-link klik">Domů</a></li>
+                        <li class="link-list-li"><a href="tym.html" class="nav-link klik">Náš Tým</a></li>
+                        <li class="link-list-li dropdown">
+                            <a href="#" class="nav-link klik">Služby▾</a>
+                            <ul class="sluzby-podsekce">
+                                <div class="podsekce-div">
+                                    <li class="podsekce-li"><a class="podsekce-link" href="vlasy.html">Péče o vlasovou pokožku a vlasy</a>
+                                    </li>
+                                    <li class="podsekce-li"><a class="podsekce-link" href="nanotape.html">Prodlužovaní vlasů Nanotape</a></li>
+                                    <li class="podsekce-li"><a class="podsekce-link" href="rasy.html">Prodlužování řas a
+                                            obočí</a></li>
+                                    <li class="podsekce-li"><a class="podsekce-link" href="kosmetika.html">Kosmetika &
+                                            Vizážistka</a></li>
+                                    <li class="podsekce-li"><a class="podsekce-link" href="nehty.html">Nehtová
+                                            modeláž</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="link-list-li dropdown">
+                            <a href="#galerie" class="nav-link klik">Galerie▾</a>
+                            <ul class="sluzby-podsekce podsekce2">
+                                <div class="podsekce-div">
+                                    <li class="podsekce-li"><a class="podsekce-link" href="galerie-prace.html">Ukázky
+                                            práce</a></li>
+                                    <li class="podsekce-li"><a class="podsekce-link" href="fotogalerie.html">Fotky
+                                            interiéru</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="link-list-li"><a href="kontakty.html" class="nav-link klik">Kontakty</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- FULLSCREEN HERO SWIPER -->
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1: NANOTAPE Prodlužování vlasů -->
+                <div class="swiper-slide hero-slide"
+                    style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('nanotape2.png">
+                    <div class="hero-content">
+                        
+                        <h1 class="hero-title">Dokonalé, husté & dlouhé vlasy s Nanotape</h1>
+                        <p class="domu-para">Objevte nejšetrnější metodu prodlužování vlasů s neviditelnými spoji a
+                            maximálním komfortem.</p>
+                        <div class="buttons">
+                            <a href="nanotape.html" class="domu-button">Objevit NANOTAPE</a>
+                            <a href="polesova.html" class="domu-button hero-btn-outline">Konzultace zdarma</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Proměna na míru -->
+                <div class="swiper-slide hero-slide"
+                    style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('nanotape5.png');">
+                    <div class="hero-content">
+                        
+                        <h2 class="hero-title">Vlasy, které budou vaší dokonalou korunou</h2>
+                        <p class="domu-para">profesionální péče, módní zesvětlení, koloristika a střihy na míru.</p>
+                        <div class="buttons">
+                            <a href="kontakty.html" class="domu-button">Rezervovat termín </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Kompletní péče o krásu -->
+                <div class="swiper-slide hero-slide"
+                    style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('nehty6.png');">
+                    <div class="hero-content">
+                        
+                        <h2 class="hero-title">Buďte neodolatelná od hlavy až k patě</h2>
+                        <p class="domu-para">vlasy & nehty & pleť & řasy</p>
+                        <p class="domu-para">Kompletní salonní péče a okamžitým efektem</p>
+                        <div class="buttons">
+                            <a href="#sluzby" class="domu-button">Nabídka služeb</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Ovladače slideru -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+    </div>
+
+
+    <section id="onas">
+
+        <h2 class="nadpis-h2">O Nás</h2>
+
+        <div class="cara"></div>
+
+        <div class="onas-container">
+
+            <figure class="onas-figure sekce">
+
+                <img src="onas.jpg" alt="" class="onas-image">
+
+            </figure>
+
+            <div class="onas-text sekce">
+
+                <h3 class="onas-h3">O kadeřnickém salonu art-ego</h3>
+
+
+                <p class="onas-para">Význam názvu salonu art-ego je velmi jednoduchý. Jde o spojení "art = umění" a "ego
+                    = vlastní osobnost, já". Každý z Vás má svou vlastní osobnost, která je jedinečná a každému sluší
+                    něco jiného. Společnými silami a poznáním Vašeho JÁ, najdeme ten správný směr. </p>
+
+
+
+
+
+                <p class="onas-para">Věříme, že krása vzniká z úzkého vztahu a vzájemné důvěry... Těšíme se na poznání nejen Vašeho JÁ!
+                </p>
+
+                <a class="onas-button" href="tym.html">Více informací</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="sluzby">
+
+        <h2 class="nadpis-h2">Naše Služby</h2>
+
+        <div class="cara"></div>
+
+        <div class="sluzby-container">
+
+            <div class="sluzby-blok sekce">
+
+                <figure class="sluzby-figure">
+
+                    <img src="vlasy5.png" alt="" class="sluzby-image">
+
+                    <div class="sluzby-neviditelny"><a href="vlasy.html" class="sluzby-button">Více informací</a></div>
+
+                </figure>
+
+                <div class="sluzby-text">
+
+                    <h3 class="sluzby-h3">
+
+                        Péče o vlasovou pokožku a vlasy
+
+                    </h3>
+
+                    <p class="sluzby-para">Nabízíme účesy podle nejnovějších trendů, melíry, regeneraci vlasů, prodej
+                        vlasové kosmetiky l´orel a vlasové poradenství.</p>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="sluzby-blok sekce">
+
+                <figure class="sluzby-figure">
+
+                    <img src="nanotape.png" alt="" class="sluzby-image">
+
+                    <div class="sluzby-neviditelny"><a class="sluzby-button" href="nanotape.html">Více informací</a>
+                    </div>
+
+                </figure>
+
+                <div class="sluzby-text">
+
+                    <h3 class="sluzby-h3">
+
+                        Prodlužování vlasů NANOTAPE
+
+                    </h3>
+
+                    <p class="sluzby-para">Nano Tape představuje absolutní špičku v moderním prodlužování vlasů. Jde o
+                        tzv. sendvičovou metodu.</p>
+
+                </div>
+
+            </div>
+
+            <div class="sluzby-blok sekce">
+
+                <figure class="sluzby-figure">
+
+                    <img src="gal2.png" alt="" class="sluzby-image">
+
+                    <div class="sluzby-neviditelny"><a href="vlasy.html" class="sluzby-button">Více informací</a></div>
+
+                </figure>
+
+                <div class="sluzby-text">
+
+                    <h3 class="sluzby-h3">
+
+                        Módní/klasické zesvětlení vlasů
+
+                    </h3>
+
+                    <p class="sluzby-para">Mezi moderní a módní techniky zesvětlení vlasů patří pokročilé metody, které vytvářejí přirozené přechody, optický objem a minimalizují viditelné odrosty.</p>
+
+                </div>
+
+            </div>
+            <div class="sluzby-blok sekce">
+
+                <figure class="sluzby-figure">
+
+                    <img src="barveni.png" alt="" class="sluzby-image">
+
+                    <div class="sluzby-neviditelny"><a href="vlasy.html" class="sluzby-button">Více informací</a></div>
+
+                </figure>
+
+                <div class="sluzby-text">
+
+                    <h3 class="sluzby-h3">
+
+                        Koloristika ( barvení vlasů )
+
+                    </h3>
+
+                    <p class="sluzby-para">Mezi moderní a módní techniky zesvětlení vlasů patří pokročilé metody, které vytvářejí přirozené přechody, optický objem a minimalizují viditelné odrosty.</p>
+
+                </div>
+
+            </div>
+            <div class="sluzby-blok sekce">
+
+                <figure class="sluzby-figure">
+
+                    <img src="vlasy1.jpg" alt="" class="sluzby-image">
+
+                    <div class="sluzby-neviditelny"><a href="vlasy.html" class="sluzby-button">Více informací</a></div>
+
+                </figure>
+
+                <div class="sluzby-text">
+
+                    <h3 class="sluzby-h3">
+
+                        Trendy střihy & styling
+
+                    </h3>
+
+                    <p class="sluzby-para">Vytvoříme vám střih a úpravu vlasů přesně podle vašich představ a aktuálních módních trendů.</p>
+
+                </div>
+
+            </div>
+
+            <div class="sluzby-blok sekce">
+
+                <figure class="sluzby-figure">
+
+                    <img src="rasy.png" alt="" class="sluzby-image">
+
+                    <div class="sluzby-neviditelny"><a class="sluzby-button" href="rasy.html">Více informací</a></div>
+                </figure>
+
+                <div class="sluzby-text">
+
+                    <h3 class="sluzby-h3">
+
+                        Prodlužování řas a úprava obočí
+
+                    </h3>
+
+                    <p class="sluzby-para">Precizní techniky úpravy obočí a aplikace řas na míru, které otevřou váš
+                        pohled a podtrhnou vaši přirozenou krásu.</p>
+
+                </div>
+
+            </div>
+
+            <div class="sluzby-blok sekce">
+
+                <figure class="sluzby-figure">
+
+                    <img src="kosmetika2.png" alt="" class="sluzby-image">
+
+                    <div class="sluzby-neviditelny"><a href="rasy.html" class="sluzby-button">Více informací</a></div>
+
+                </figure>
+
+                <div class="sluzby-text">
+
+                    <h3 class="sluzby-h3">
+
+                        Kosmetika & Vizážistka
+
+                    </h3>
+
+                    <p class="sluzby-para">Profesionální kosmetické služby a vizážistika s důrazem na zdraví pleti,
+                        vysoce kvalitní produkty a váš dokonale svěží vzhled.</p>
+
+                </div>
+
+            </div>
+
+            <div class="sluzby-blok sekce">
+
+                <figure class="sluzby-figure">
+
+                    <img src="nehty.png" alt="" class="sluzby-image">
+
+                    <div class="sluzby-neviditelny"><a href="nehty.html" class="sluzby-button">Více informací</a></div>
+
+                </figure>
+
+                <div class="sluzby-text">
+
+                    <h3 class="sluzby-h3">
+
+                        Nehtová modeláž a manikúra
+
+                    </h3>
+
+                    <p class="sluzby-para">Profesionální modeláž, gellak a manikúra s důrazem na zdraví nehtů,
+                        dlouhotrvající efekt a dokonalý detail.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="galerie">
+
+        <h2 class="nadpis-h2">Ukázka naší práce</h2>
+
+        <div class="cara"></div>
+
+        <div class="full-img" id="fullImgBox">
+
+            <img src="" alt="" id="fullImg">
+
+            <span onclick="closeFullImg()">X</span>
+
+        </div>
+
+        <div class="galerie-container">
+
+            <figure class="galerie-figure sekce">
+
+                <img src="gal1.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="gal2.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="gal3.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="vlasy1.jpg" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+            <figure class="galerie-figure sekce">
+
+                <img src="nehty.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="nehty2.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="nehty3.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="nehty4.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="nanotape.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="nanotape2.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="nanotape3.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="nanotape4.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+           
+            <figure class="galerie-figure sekce">
+
+                <img src="oci13.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="oci.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="oci2.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+            <figure class="galerie-figure sekce">
+
+                <img src="oci3.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+
+            </figure>
+
+        </div>
+
+    </section>
+
+    <section id="banner" class="sekce">
+
+        <div class="banner-container">
+
+
+            <img src="vlasy1.jpg" alt="">
+
+            <img src="nehty4.png" alt="">
+
+            <img src="nanotape.png" alt="">
+
+            <img src="oci10.png" alt="">
+
+            <img src="vlasy10.png" alt="">
+
+            <img src="nehty8.png" alt="">
+
+            <img src="nanotape2.png" alt="">
+
+            <img src="oci13.png" alt="">
+
+            <img src="kosmetika2.png" alt="">
+
+            <img src="vlasy2.png" alt="">
+
+            <img src="nehty2.png" alt="">
+
+            <img src="nehty4.png" alt="">
+
+            <img src="nanotape.png" alt="">
+
+            <img src="oci10.png" alt="">
+
+            <img src="vlasy10.png" alt="">
+
+            <img src="nehty8.png" alt="">
+
+            <img src="nanotape2.png" alt="">
+
+            <img src="oci13.png" alt="">
+
+            <img src="kosmetika2.png" alt="">
+
+            <img src="vlasy2.png" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section id="hodnoceni">
+
+        <h2 class="nadpis-h2">Hodnocení Zákazníků</h2>
+
+        <div class="cara"></div>
+
+        <span class="hodnoceni-span">Co naši zákazníci říkají o zkušenostech s námi </span>
+
+
+
+        <div class="hodnoceni-container sekce">
+
+
+
+
+
+
+
+            <!-- Slider main container -->
+
+            <div class="swiper swiper2">
+
+                <!-- Additional required wrapper -->
+
+                <div class="swiper-wrapper">
+
+                    <!-- Slides -->
+
+                    <div class="swiper-slide slide2">
+
+                        <div class="blocek">
+
+                            <figure class="hodnoceni-figure">
+
+                                <span class="stred">D</span>
+
+                            </figure>
+
+                            <div class="hodnoceni-text">
+
+                                <h3 class="hodnoceni-h3">Drahomíra M.</h3>
+
+                                <p class="hodnoceni-para">"Pěkné a příjemné prostředí, skvělé kadeřnice, profesionální
+                                    přístup k zákazníkům"</p>
+
+                                <div class="stars">
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="swiper-slide slide2">
+
+                        <div class="blocek">
+
+                            <figure class="hodnoceni-figure">
+
+                                <span class="stred">M</span>
+
+                            </figure>
+
+                            <div class="hodnoceni-text">
+
+                                <h3 class="hodnoceni-h3">Martin W.</h3>
+
+                                <p class="hodnoceni-para">"Perfektní kadeřnictví, za rozumnou cenu. Chodíme sem
+                                    pravidelně s manželkou a jsme velmi spokojeni."</p>
+
+                                <div class="stars">
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide slide2">
+
+                        <div class="blocek">
+
+                            <figure class="hodnoceni-figure">
+
+                                <span class="stred">R</span>
+
+                            </figure>
+
+                            <div class="hodnoceni-text">
+
+                                <h3 class="hodnoceni-h3">Radovan J.</h3>
+
+                                <p class="hodnoceni-para">"Příjemný personál, kvalitní práce a v pohodě ceny :) Platit
+                                    je možné jen cash."</p>
+
+                                <div class="stars">
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="swiper-slide slide2">
+
+                        <div class="blocek">
+
+                            <figure class="hodnoceni-figure">
+
+                                <span class="stred">R</span>
+
+                            </figure>
+
+                            <div class="hodnoceni-text">
+
+                                <h3 class="hodnoceni-h3">Radka P.</h3>
+
+                                <p class="hodnoceni-para">"Příjemné prostředí, dobrá domluva, slečna poradila, ale
+                                    nevnucovala svůj názor. S výsledkem jsem velmi spokojená"</p>
+
+                                <div class="stars">
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide slide2">
+
+                        <div class="blocek">
+                            <figure class="hodnoceni-figure">
+
+                                <span class="stred">H</span>
+
+                            </figure>
+
+
+                            <div class="hodnoceni-text">
+
+                                <h3 class="hodnoceni-h3">Hana O.</h3>
+
+                                <p class="hodnoceni-para">"Skvělý servis a služby"</p>
+
+                                <div class="stars">
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                    <i class="fa-solid fa-star"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <!-- If we need pagination -->
+
+
+
+
+
+                <!-- If we need navigation buttons -->
+
+                <div class="swiper-button-prev prev"></div>
+
+                <div class="swiper-button-next next"></div>
+
+
+
+                <!-- If we need scrollbar -->
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <a class="hodnoceni-button"
+            href="https://www.google.com/maps/place/Kade%C5%99nick%C3%BD+salon+art-ego/@49.5930673,18.0093859,737m/data=!3m1!1e3!4m8!3m7!1s0x471394abef252841:0x90ed15aa7f1fbeef!8m2!3d49.5930639!4d18.0119608!9m1!1b1!16s%2Fg%2F11cs4k74v8?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank">Zobrazit všechny recenze</a>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section id="faq">
+
+        <div class="faq-container">
+
+            <h2 class="nadpis-h2">Často kladené <span class="text--green">otázky</span></h2>
+
+            <div class="cara"></div>
+
+
+
+            <div class="faq-list sekce">
+
+                <!-- 1. Otázka -->
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        <span>Je nutné se k vám předem objednat?</span>
+
+                        <i class="fas fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>Ano, Rezervace je nutná. Doporučujeme rezervaci termínu telefonicky a individuálně se
+                            domluvíme na určitém termínu.</p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 2. Otázka -->
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        <span>Jak dlouho u vás návštěva v salonu trvá?</span>
+
+                        <i class="fas fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>Doba závisí na zvolené službě. Přesný časový odhad vám kadeřnice sdělí při telefonátu, nebo
+                            na začátku návštěvy.</p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 3. Otázka -->
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        <span>S jakými značkami vlasové kosmetiky pracujete?</span>
+
+                        <i class="fas fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>Pracujeme výhradně s prémiovou profesionální kosmetikou, která vlasy nezatěžuje a dodává jim
+                            potřebnou výživu a lesk. Naším hlavním partnerem jsou špičkové značky L'Oréal Professionnel,
+                            Kérastase, Medavita, ProfiBeauty pro maximální ochranu vlasových vazeb během barvení.</p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 4. Otázka -->
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        <span>Co je to metoda Nano Tape?</span>
+
+                        <i class="fas fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>Nano Tape představuje absolutní špičku v moderním prodlužování vlasů. Jde o tzv. sendvičovou
+                            metodu, při které se vaše vlastní vlasy „uzamknou“ mezi dva extrémně tenké a lehké spoje s
+                            prodlužovanými prameny.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-blok blocekJedna sekce">
+
+                <div class="footer-text">
+
+                    <figure class="footer-figure">
+
+                        <img src="logo2.png" alt="" class="footer-image">
+
+                    </figure>
+
+                    <p class="footer-para">Nabízíme široké spektrum služeb od účesů podle nejnovějších trendů, barvení a
+                        melírů, regenerace vlasů, prodej vlasové kosmetiky l´orel a vlasové poradenství.</p>
+
+                    
+
+                </div>
+
+            </div>
+
+            <div class="footer-links sekce">
+
+                <h3 class="footer-h3">Rychlé odkazy</h3>
+                <a class="footer-link linkos" href="index.html">Domů</a>
+
+                <a class="footer-link linkos" href="#onas">O nás</a>
+
+                <a class="footer-link linkos" href="#sluzby">Služby</a>
+
+                <a class="footer-link linkos" href="#galerie">Galerie</a>
+
+                <a class="footer-link linkos" href="#kontakty">Kontakty</a>
+
+            </div>
+
+
+
+            <div class="footer-links sekce">
+
+                <h3 class="footer-h3">Naše služby</h3>
+
+                <a class="footer-link linkos2" href="vlasy.html">Péče o vlasy</a>
+
+                <a class="footer-link linkos2" href="nanotape.png">Prodlužování vlasů</a>
+
+                <a class="footer-link linkos2" href="vlasy.html">Barvení vlasů</a>
+
+                <a class="footer-link linkos2" href="rasy.html">Prodlužování řas</a>
+
+                <a class="footer-link linkos2" href="nehty.html">Nehtová modeláž</a>
+
+                <a class="footer-link linkos2" href="kosmetika.html">Kosmetika</a>
+
+            </div>
+
+
+
+            <div class="footer-blok sekce">
+
+                <h3 class="footer-h3">Kontaktuj nás</h3>
+
+                <div class="footer-radek">
+
+                    <i class="fa-solid fa-location-dot i a"></i>
+
+                    <span class="footer-span">K Nemocnici 210, 741 01 Nový Jičín 1</span>
+
+                </div>
+                <div class="site">
+
+                    <a target="_blank" href="https://www.instagram.com/salon_art_ego/"><i
+                            class="fa-brands fa-instagram i a"></i></a>
+
+                    <a target="_blank"
+                        href="https://www.facebook.com/p/Kade%C5%99nick%C3%BD-kosmetick%C3%BD-salon-art-ego-100063534042336/?locale=cs_CZ"><i
+                            class="fa-brands fa-facebook i a"></i></a>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="caraDva sekce"></div>
+        <p class="footer-last">Web vytvořil Filip Jiřík</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
